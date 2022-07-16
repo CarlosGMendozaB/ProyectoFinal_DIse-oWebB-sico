@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+body{
+	background-image: url("../img/fondo.png");
+	background-size: contain;
+	background-repeat: repeat;
+	color: white;
+	font-size: large;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+	color: gold;
+}
+
+.uni:hover{
+	color: green;
+}
+
+.cuadro0{
+	display: flex;
+	justify-content: space-between;
+	top: 50px;
+	color: white;
+	font-size: large;
+	border: 2px solid white;
+}
+.cuadro1{
+	display:flex;
+	height: 500px;
+	position: relative;
+	overflow: auto;
+}
+.info{
+	align-content: flex-end;
+	padding: 50px;
+}
+.cuadro2{
+	display: block;
+	height: 400px;
+	position: relative;
+	overflow: auto;
+	padding: 50px;
+}
+
+.icono{
+	height: 150px;
+	width: 150px;
+}
+.imagen1{
+	height: 600px;
+	width: 700px;
+	margin: 20px;
+}
+.menu{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 100vh;
+	font-size: x-large;
+	height: 100px;
+}
+
+ul{
+	margin: 50px;
+	margin-left: 100px;
+}
+
+.base1{
+	margin-left: 50px;
+	margin-right: 200px;
+
+}
+.info{
+	height: 30vh;
+	width: calc(50% - 50px/2);
+}
+
+
+.perfil{
+	height: 500px;
+	width: 500px;
+	margin: 30px;
+}
+
+.cuadro3{
+	display:inline-block;
+	height: 140vh;
+	position: relative;
+	overflow: auto;
+
+}
+
+.info3{
+	height: 30vh;
+	position: relative;
+}
+
+.imagendiv{
+	overflow: auto;
+}
+
+.imagen2{
+	height: 300px;
+	width: 300px;
+	margin-left: 20vh;
+	position: relative;
+}
+
+.cuadro4{
+	display:inline-block;
+	height: 900px;
+	position: relative;
+	overflow: auto;
+}
+
+.imagen3{
+	height: 300px;
+	width: 350px;
+	margin: 5px;
+	margin-top: 10px;
+}
+
+.boton{
+	color: black;
+}
+
+
+@media (max-width: 576px) {
+	body{
+		font-size: medium;
+		width: 100%;
+		height: 100%;
+	}
+	header{
+		height: 100%;
+	}
+	.icono{
+		height: 100%;
+		width: 110%;
+	}
+	.cuadro0{
+	display: block;
+	justify-content: flex-start;
+	top: 20%;
+	color: white;
+	font-size: medium;
+	border: 2px solid white;
+	}
+
+	.menu{
+	width: 100%;
+	font-size: medium;
+	}
+	.cuadro1{
+	display:inline-block;
+	height: 150%;
+	width: 150%;
+	position: relative;
+	overflow: auto;
+	}
+	.perfil{
+	height: 40%;
+	width: 40%;
+	}
+	.info{
+	position: relative;
+	padding: 5%;}
+
+	.cuadro2{
+	display: block;
+	height: 150%;
+	position: relative;
+	overflow: auto;
+	padding: 10%;
+	}
+
+	.imagen1{
+	height: 40%;
+	width: 40%;
+	}
+
+	.cuadro3{
+	display:inline-block;
+	height: 490%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	font-size: smaller;
+	}
+	.imagen2{
+	height: 50%;
+	width: 40%;
+	position: relative;
+	}
+	.cuadro4{
+	display:inline-block;
+	height: 900px;
+	position: relative;
+	overflow: auto;
+	font-size: smaller;
+	}
+
+.imagen3{
+	height: 30%;
+	width: 35%;
+	margin: 5%;
+	margin-top: 10%;
+	}
+}
+
+
+@media (max-width: 900px) {
+	body{
+		font-size: large;
+		width: 100%;
+		height: 100%;
+	}
+	header{
+		height: 100%;
+	}
+	.icono{
+		height: 50%;
+		width: 50%;
+	}
+	.cuadro0{
+	display: block;
+	justify-content: flex-start;
+	top: 20%;
+	color: white;
+	font-size: medium;
+	border: 2px solid white;
+	}
+
+	.menu{
+	width: 100%;
+	font-size: large;
+	}
+	.cuadro1{
+	display:block;
+	height: 200%;
+	width: 160%;
+	position: relative;
+	overflow: auto;
+	}
+	.perfil{
+	height: 40%;
+	width: 40%;
+	}
+	.info{
+	position: relative;
+	padding: 5%;}
+
+	.cuadro2{
+	display: block;
+	height: 150%;
+	position: relative;
+	overflow: auto;
+	padding: 10%;
+	}
+
+	.imagen1{
+	height: 40%;
+	width: 40%;
+	}
+
+
+	.cuadro3{
+	display:inline-block;
+	height: 490%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	font-size: smaller;
+	}
+	.imagen2{
+	height: 50%;
+	width: 40%;
+	position: relative;
+	}
+	.cuadro4{
+	display:inline-block;
+	height: 900px;
+	position: relative;
+	overflow: auto;
+	font-size: smaller;
+	}
+
+.imagen3{
+	height: 30%;
+	width: 35%;
+	margin: 5%;
+	margin-top: 10%;
+	}
+}
+
+

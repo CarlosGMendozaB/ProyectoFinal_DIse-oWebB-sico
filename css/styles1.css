@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+body{
+	background-image: url("../img/fondo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-size: large;
+	font-family: 'Ubuntu', sans-serif;
+}
+a{
+	color: gold;
+}
+.cuadro0{
+	display: flex;
+	justify-content: space-between;
+	top: 50px;
+	color: white;
+	font-size: large;
+	border: 2px solid white;
+}
+
+.icono{
+	height: 150px;
+	width: 150px;
+}
+
+.menu{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 100vh;
+	font-size: x-large;
+	height: 100px;
+}
+
+
+.formulario{
+	padding: 2rem 4rem;
+	min-height: 100vh;
+	display: block;
+}
+.boton1{
+	color: black;
+}
+ .boton1:hover{
+ 	color: darkred;
+ }
+ main{
+ 	min-width: 30rem;
+ 	max-width:60rem;
+ 	width: 100%;
+ 	padding: 1.25rem;
+ }
+ form{
+ 	margin: 1.25rem;
+ 	border-radius: 5px;
+
+ }
+ .form_info{
+ 	margin: 2rem;
+ }
+
+ .form_info1{
+ 	margin: auto;
+ }
+ .caja{
+ 	width: 10px;
+ }
+input{
+	width: 100%;
+	border: 3px solid white;
+	padding: 0.3%;
+	border-radius: 10px;
+}
+label:hover{
+	color: rebeccapurple;
+}
+ button{
+ 	width: 20%;
+ 	margin-left:calc(100%/2);
+ 	margin-top: 2rem;
+ }
